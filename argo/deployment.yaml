@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: gitops-foundations
-        image: lucasereis/gitops-foundations:2.0
+        image: lucasereis/gitops-foundations:2.1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
